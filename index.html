@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/free-icon-e-reader-227026.png" type="image/x-icon">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Only Books</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-light ">
+        <div class="container-fluid ">
+            <div class="display-block">
+            <div class="header__main">
+                <p class="header__text">Calls are free of charge 0-800-600-505</p>
+                <ul class="navbar-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Book Listing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Single Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__search">
+                <img src="./img/Group 3229.png" alt="">
+                <div class="header__search-main">
+                    <div class="all__books">
+                        <object data="./img/Group 32.svg" type="image/svg+xml"></object>
+                        <span class="all__book">All Books</span>
+                    </div>
+                    <form class="d-flex flex__none">
+                        <input class="form-control me-2" type="search" placeholder="I’m looking for..." aria-label="Search">
+                        <button class="btn  btn__style" type="submit">Search</button>
+                    </form>
+                    <div class="header__icon">
+                        <div class="icon__box1">
+                            <object data="./img/Group 34.svg" type="image/svg+xml"></object>
+                        </div>
+                        <div class="icon__box2">
+                            <object data="./img/Group 33.svg" type="image/svg+xml"></object>
+                        </div>
+                    </div>
+                </div>
+                <span class="burger__none"  onclick="openNav()">
+                    <img src="./img/burg.svg" alt="img-svg">
+                </span> 
+            </div>
+        </div>
+    </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Book Listing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Single Book</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <form class="d-flex flex-size ">
+                    <input class="form-control me-2" type="email" placeholder="example@mail.com" >
+                    <button class="btn  btn__style" type="submit">Search</button>
+                </form>
+                <li class="nav-item">
+                    <a class="nav-link link-width" href="#">Calls are free of charge 0-800-600-505</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="container-fluid container-grey">
+    <div class="box__heading">
+        <div class="heading__list">
+            <ul>
+                <li class="red">Books</li>
+                <li class="red">Popular</li>
+                <li class="red line">Sale</li>
+                <li class="red">New</li>
+            </ul>
+        </div>
+        <div class="heading__carusel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active selector" aria-current="true" aria-label="Slide 1"></button>
+                    <button class="selector" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button  class="selector" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="slider-text">
+                                <p class="slider-subtitle">Limited-time deal</p>
+                                <p class="slider-title">Save up to 40% on print books</p>
+                            </div>
+                            <img  src="./img/Banner2.png" class="d-block w-100 size__img" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slider-text">
+                                <p class="slider-subtitle">Limited-time deal</p>
+                                <p class="slider-title">Save up to 40% on print books</p>
+                            </div>
+                            <img src="./img/Banner2.png" class="d-block w-100 size__img" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slider-text">
+                                <p class="slider-subtitle">Limited-time deal</p>
+                                <p class="slider-title">Save up to 40% on print books</p>
+                            </div>
+                            <img src="./img/Banner2.png" class="d-block w-100 size__img" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </div>
+    </div>
+</div>
+<!-- block 1 -->
+<div class="container-fluid">
+    <div class="books-contents">
+        <h2 class="content-title">Best Sellers</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">    <div class="image-slide__image">
+                <div class="col col-width">
+                    <div class="card" style="width: 18rem;">
+                        <div class="bookmark">Popular</div>
+                        <img  src="./img/Rectangle 4.png" class="card-img-top img-size" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">One Vote Away</h5>
+                            <p class="card-text">Ted Cruz</p>
+                                <div class="card-price">
+                                    <p class="price">$17.39</p>
+                                    <div class="star-rating">
+                                        <div class="star-rating__wrap">
+                                        <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="15">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="14">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="13">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="12">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="11">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="card-btn">
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div>
+            <div class="swiper-slide">    
+                <div class="image-slide__image">
+                    <div class="col col-width">
+                        <div class="card" style="width: 18rem;">
+                            <div class="bookmark">Popular</div>
+                            <img src="./img/Rectangle 5.png" class="card-img-top img-size" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">7 Secrets of Persuasion </h5>
+                                <p class="card-text">Ina Garten</p>
+                                <div class="card-price">
+                                    <p class="price">$12.00</p>
+                                    <div class="star-rating">
+                                        <div class="star-rating__wrap">
+                                        <input class="star-rating__input" id="star-rating-10" type="radio" name="rating" value="25">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-9" type="radio" name="rating" value="24">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-8" type="radio" name="rating" value="23">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-7" type="radio" name="rating" value="22">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" f7r="star-rating-2" title="2 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-6" type="radio" name="rating" value="21">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="card-btn">
+                                        <!-- <a href="#" class="">t</a> -->
+                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">    
+                <div class="image-slide__image">
+                    <div class="col col-width">
+                        <div class="card" style="width: 18rem;">
+                            <div class="bookmark">Popular</div>
+                            <img src="./img/Rectangle 3.png" class="card-img-top img-size" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Secrets We Keep</h5>
+                                <p class="card-text">Kate Hewitt</p>
+                                <div class="card-price">
+                                    <p class="price">$10.50</p>
+                                    <div class="star-rating">
+                                        <div class="star-rating__wrap">
+                                        <input class="star-rating__input" id="star-rating-25" type="radio" name="rating" value="5">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-24" type="radio" name="rating" value="4">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-23" type="radio" name="rating" value="3">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-222" type="radio" name="rating" value="2">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-21" type="radio" name="rating" value="1">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="card-btn">
+                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class="swiper-slide">   
+                <div class="image-slide__image">
+                    <div class="col col-width">
+                        <div class="card" style="width: 18rem;">
+                            <div class="bookmark">Popular</div>
+                            <img src="./img/Rectangle 6.png" class="card-img-top img-size" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">American Dirt</h5>
+                                <p class="card-text">Jeanine Cummins</p>
+                                <div class="card-price">
+                                    <p class="price">$16.00</p>
+                                    <div class="star-rating">
+                                        <div class="star-rating__wrap">
+                                        <input class="star-rating__input" id="star-rating-15" type="radio" name="rating" value="5">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-14" type="radio" name="rating" value="4">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-13" type="radio" name="rating" value="3">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-22" type="radio" name="rating" value="2">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-11" type="radio" name="rating" value="1">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="card-btn">
+                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class="swiper-slide">    
+                <div class="image-slide__image">
+                    <div class="col col-width">
+                        <div class="card" style="width: 18rem;">
+                            <div class="bookmark">Popular</div>
+                            <img src="./img/Rectangle 68.png" class="card-img-top img-size" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Surviving The Forest</h5>
+                                <p class="card-text">Adiva Geffen</p>
+                                <div class="card-price">
+                                    <p class="price">$22.99</p>
+                                    <div class="star-rating">
+                                        <div class="star-rating__wrap">
+                                        <input class="star-rating__input" id="star-rating-20" type="radio" name="rating" value="5">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-19" type="radio" name="rating" value="4">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-18" type="radio" name="rating" value="3">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-17" type="radio" name="rating" value="2">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-16" type="radio" name="rating" value="1">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="card-btn">
+                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        </div>
+    </div>
+<!-- block2 -->
+<div class="container-fluid">
+    <div class="books-contents">
+        <h2 class="content-title">Hot New Releases</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">   
+                <div class="image-slide__image">
+                    <div class="col col-width">
+                        <div class="card" style="width: 18rem;">
+                            <div class="bookmark2">New</div>
+                            <img  src="./img/Rectangle 9.png" class="card-img-top img-size" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Dip</h5>
+                                <p class="card-text">Seth Godin</p>
+                                <div class="card-price">
+                                    <p class="price">$17.00</p>
+                                    <div class="star-rating">
+                                        <div class="star-rating__wrap">
+                                        <input class="star-rating__input" id="star-rating-35" type="radio" name="rating" value="5">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-34" type="radio" name="rating" value="4">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-33" type="radio" name="rating" value="3">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-32" type="radio" name="rating" value="2">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-31" type="radio" name="rating" value="1">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="card-btn">
+                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class="swiper-slide">    
+                <div class="image-slide__image">
+                    <div class="col col-width">
+                        <div class="card" style="width: 18rem;">
+                            <div class="bookmark2">New</div>
+                            <img src="./img/Rectangle 10.png" class="card-img-top img-size" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">A Promised Land </h5>
+                                <p class="card-text">Barack Obama</p>
+                                <div class="card-price">
+                                    <p class="price">$27.00</p>
+                                    <div class="star-rating">
+                                        <div class="star-rating__wrap">
+                                        <input class="star-rating__input" id="star-rating-45" type="radio" name="rating" value="5">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-44" type="radio" name="rating" value="4">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-43" type="radio" name="rating" value="3">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-42" type="radio" name="rating" value="2">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-41" type="radio" name="rating" value="1">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="card-btn">
+                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">    
+                <div class="image-slide__image">
+                    <div class="col col-width">
+                        <div class="card" style="width: 18rem;">
+                            <div class="bookmark2">New</div>
+                            <img src="./img/Rectangle 11.png" class="card-img-top img-size" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Office</h5>
+                                <p class="card-text">Robb Pearlman</p>
+                                <div class="card-price">
+                                    <p class="price">$12.00</p>
+                                    <div class="star-rating">
+                                        <div class="star-rating__wrap">
+                                        <input class="star-rating__input" id="star-rating-55" type="radio" name="rating" value="5">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-54" type="radio" name="rating" value="4">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-53" type="radio" name="rating" value="3">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-52" type="radio" name="rating" value="2">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-51" type="radio" name="rating" value="1">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="card-btn">
+                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class="swiper-slide">   
+                <div class="image-slide__image">
+                    <div class="col col-width">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/Rectangle 7.png" class="card-img-top img-size" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Return</h5>
+                                <p class="card-text">Nicholas Sparks</p>
+                                <div class="card-price">
+                                    <p class="price">$16.00</p>
+                                    <div class="star-rating">
+                                        <div class="star-rating__wrap">
+                                        <input class="star-rating__input" id="star-rating-65" type="radio" name="rating" value="5">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-64" type="radio" name="rating" value="4">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-63" type="radio" name="rating" value="3">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-62" type="radio" name="rating" value="2">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-61" type="radio" name="rating" value="1">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="card-btn">
+                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class="swiper-slide">    
+                <div class="image-slide__image">
+                    <div class="col col-width">
+                        <div class="card" style="width: 18rem;">
+                            <div class="bookmark2">New</div>
+                            <img src="./img/Rectangle 8.png" class="card-img-top img-size" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">7 Secrets of Persuasion </h5>
+                                <p class="card-text">Kristin Cavallari </p>
+                                <div class="card-price">
+                                    <p class="price">$17.52</p>
+                                    <div class="star-rating">
+                                        <div class="star-rating__wrap">
+                                        <input class="star-rating__input" id="star-rating-75" type="radio" name="rating" value="5">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-74" type="radio" name="rating" value="4">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-73" type="radio" name="rating" value="3">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-72" type="radio" name="rating" value="2">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                        <input class="star-rating__input" id="star-rating-71" type="radio" name="rating" value="1">
+                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="card-btn">
+                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                        <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        </div>
+    </div>
+<!-- block 2 -->
+<div class="container-fluid ">
+    <div class="box__banner">
+        <div class="banner-bg">
+            <div class="banner-discound"><p>Book of the Week</p></div>
+            <div class="card-1" style="width: 18rem;">
+                <div class="card-body-1">
+                    <h4 class="card-title-1">Elsewhere</h4>
+                    <p class="card-subtitle-1">by Dean Koontz</p>
+                    <p class="card-price-1">$18.99</p>
+                    <p class="card__text-1">The fate of the world is in the hands of a father and daughter in an epic novel of wonder and terror by Dean Koontz, the #1 New York Times bestselling master of suspense.</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- section 5 -->
+<div class="container-fluid ">
+    <div class="box__books">
+        <h2 class="content-title">The Best Books of 2020</h2>
+        <hr class="line-books">
+        <div class="books-main">
+        <div class="heading__list">
+            <ul>
+                <li class="red">Paper Books</li>
+                <li class="red line">E-Books</li>
+                <li class="red">Audio Books</li>
+            </ul>
+        </div>
+        <div class="books-cards">
+            <div class="row">
+                    <div class="col">
+                        <div class="card-2" style="width: 18rem;">
+                            <img  src="./img/Book1.png" class="card-img-top books-size" alt="...">
+                            <div class="card-body-2">
+                            <h5 class="card-title-2">The Dancing Girls</h5>
+                            <p class="card-text-2">M.M. Chouinard.</p>
+                            <p class="card-price-2" >$13.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-2" style="width: 18rem;">
+                            <img src="./img/Book2.png" class="card-img-top books-size" alt="...">
+                            <div class="card-body-2">
+                            <h5 class="card-title-2">Zombies’ Day</h5>
+                            <p class="card-text-2">PopularMMOs</p>
+                            <p class="card-price-2" >$13.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-2" style="width: 18rem;">
+                            <img src="./img/Book3.png" class="card-img-top books-size" alt="...">
+                            <div class="card-body-2">
+                            <h5 class="card-title-2">The Calculating Stars</h5>
+                            <p class="card-text-2">Mary Robinette Kowal.</p>
+                            <p class="card-price-2" >$12.79</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-2" style="width: 18rem;">
+                            <img src="./img/Book4.png" class="card-img-top books-size" alt="...">
+                            <div class="card-body-2">
+                            <h5 class="card-title-2">The Obelisk Gate</h5>
+                            <p class="card-text-2">N. K. Jemisin</p>
+                            <p class="card-price-2" >$13.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-2" style="width: 18rem;">
+                            <img src="./img/Book5.png" class="card-img-top books-size" alt="...">
+                            <div class="card-body-2">
+                            <h5 class="card-title-2">Where the Forest Meets...</h5>
+                            <p class="card-text-2">Glendy Vanderah</p>
+                            <p class="card-price-2" >$15.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card-2" style="width: 18rem;">
+                            <img src="./img/Book6.png" class="card-img-top books-size" alt="...">
+                            <div class="card-body-2">
+                            <h5 class="card-title-2">Without a Summer </h5>
+                            <p class="card-text-2">Mary Robinette Kowal </p>
+                            <p class="card-price-2" >$13.00</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-2" style="width: 18rem;">
+                                <img src="./img/Book7.png" class="card-img-top books-size" alt="...">
+                                <div class="card-body-2">
+                                <h5 class="card-title-2">It All Comes Back to You</h5>
+                                <p class="card-text-2">Beth Duke </p>
+                                <p class="card-price-2" >$13.32</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-2" style="width: 18rem;">
+                                <img src="./img/Book8.png" class="card-img-top books-size" alt="...">
+                                <div class="card-body-2">
+                                <h5 class="card-title-2">We Were the Lucky Ones</h5>
+                                <p class="card-text-2">Georgia Hunter </p>
+                                <p class="card-price-2" >$9.60</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-2" style="width: 18rem;">
+                                <img src="./img/Book9.png" class="card-img-top books-size" alt="...">
+                                <div class="card-body-2">
+                                <h5 class="card-title-2">It's Not Supposed to...</h5>
+                                <p class="card-text-2">Lysa TerKeurst</p>
+                                <p class="card-price-2" >$12.50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-2" style="width: 18rem;">
+                                <img src="./img/Book10.png" class="card-img-top books-size" alt="...">
+                                <div class="card-body-2">
+                                <h5 class="card-title-2">Everything Is F*cked</h5>
+                                <p class="card-text-2">Mark Manson</p>
+                                <p class="card-price-2" >$13.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- carusel 3 -->
+<div class="container-fluid disapier">
+    <div class="books-contents ">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">   
+                <div class="image-slide__image">
+                    <div class="col">
+                        <div class="card-2" style="width: 18rem;">
+                            <img  src="./img/Book1.png" class="card-img-top books-size" alt="...">
+                            <div class="card-body-2">
+                            <h5 class="card-title-2">The Dancing Girls</h5>
+                            <p class="card-text-2">M.M. Chouinard.</p>
+                            <p class="card-price-2" >$13.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class="swiper-slide">    
+                <div class="image-slide__image">
+                    <div class="col">
+                        <div class="card-2" style="width: 18rem;">
+                            <img src="./img/Book2.png" class="card-img-top books-size" alt="...">
+                            <div class="card-body-2">
+                            <h5 class="card-title-2">Zombies’ Day</h5>
+                            <p class="card-text-2">PopularMMOs</p>
+                            <p class="card-price-2" >$13.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">    
+                <div class="image-slide__image">
+                    <div class="col">
+                        <div class="card-2" style="width: 18rem;">
+                            <img src="./img/Book3.png" class="card-img-top books-size" alt="...">
+                            <div class="card-body-2">
+                            <h5 class="card-title-2">The Calculating Stars</h5>
+                            <p class="card-text-2">Mary Robinette Kowal.</p>
+                            <p class="card-price-2" >$12.79</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class="swiper-slide">   
+                <div class="image-slide__image">
+                    <div class="col">
+                        <div class="card-2" style="width: 18rem;">
+                            <img src="./img/Book4.png" class="card-img-top books-size" alt="...">
+                            <div class="card-body-2">
+                            <h5 class="card-title-2">The Obelisk Gate</h5>
+                            <p class="card-text-2">N. K. Jemisin</p>
+                            <p class="card-price-2" >$13.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class="swiper-slide">    
+                <div class="image-slide__image">
+                    <div class="col">
+                        <div class="card-2" style="width: 18rem;">
+                            <img src="./img/Book5.png" class="card-img-top books-size" alt="...">
+                            <div class="card-body-2">
+                            <h5 class="card-title-2">Where the Forest Meets...</h5>
+                            <p class="card-text-2">Glendy Vanderah</p>
+                            <p class="card-price-2" >$15.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="swiper-slide">    
+            <div class="image-slide__image">
+                <div class="col">
+                    <div class="card-2" style="width: 18rem;">
+                        <img src="./img/Book6.png" class="card-img-top books-size" alt="...">
+                        <div class="card-body-2">
+                        <h5 class="card-title-2">Without a Summer </h5>
+                        <p class="card-text-2">Mary Robinette Kowal </p>
+                        <p class="card-price-2" >$13.00</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+    </div>
+    <div class="swiper-slide">    
+        <div class="image-slide__image">
+            <div class="col">
+                <div class="card-2" style="width: 18rem;">
+                    <img src="./img/Book7.png" class="card-img-top books-size" alt="...">
+                    <div class="card-body-2">
+                    <h5 class="card-title-2">It All Comes Back to You</h5>
+                    <p class="card-text-2">Beth Duke </p>
+                    <p class="card-price-2" >$13.32</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="swiper-slide">    
+    <div class="image-slide__image">
+        <div class="col">
+            <div class="card-2" style="width: 18rem;">
+                <img src="./img/Book8.png" class="card-img-top books-size" alt="...">
+                <div class="card-body-2">
+                <h5 class="card-title-2">We Were the Lucky Ones</h5>
+                <p class="card-text-2">Georgia Hunter </p>
+                <p class="card-price-2" >$9.60</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="swiper-slide">    
+    <div class="image-slide__image">
+        <div class="col">
+            <div class="card-2" style="width: 18rem;">
+                <img src="./img/Book9.png" class="card-img-top books-size" alt="...">
+                <div class="card-body-2">
+                <h5 class="card-title-2">It's Not Supposed to...</h5>
+                <p class="card-text-2">Lysa TerKeurst</p>
+                <p class="card-price-2" >$12.50</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="swiper-slide">    
+    <div class="image-slide__image">
+        <div class="col">
+            <div class="card-2" style="width: 18rem;">
+                <img src="./img/Book10.png" class="card-img-top books-size" alt="...">
+                <div class="card-body-2">
+                <h5 class="card-title-2">Everything Is F*cked</h5>
+                <p class="card-text-2">Mark Manson</p>
+                <p class="card-price-2" >$13.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="books-contents">
+        <h2 class="content-title">Related Books</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">   
+                        <div class="image-slide__image">
+                            <div class="col col-width">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="bookmark">Popular</div>
+                                    <img  src="./img/Rectangle 77.png" class="card-img-top img-size" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Fated Sky: A Lady Astronaut Novel</h5>
+                                        <p class="card-text">Mary Robinette Kowal</p>
+                                        <div class="card-price">
+                                            <p class="price">$3.00</p>
+                                            <div class="star-rating">
+                                                <div class="star-rating__wrap">
+                                                <input class="star-rating__input" id="star-rating-85" type="radio" name="rating" value="5">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-84" type="radio" name="rating" value="4">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-83" type="radio" name="rating" value="3">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-82" type="radio" name="rating" value="2">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-81" type="radio" name="rating" value="1">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            <div class="card-btn">
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">    
+                        <div class="image-slide__image">
+                            <div class="col col-width">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="bookmark">Popular</div>
+                                    <img  src="./img/Rectangle 73.png" class="card-img-top img-size" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Fated Sky: A Lady Astronaut Novel</h5>
+                                        <p class="card-text">Mary Robinette Kowal</p>
+                                        <div class="card-price">
+                                            <p class="price">$3.00</p>
+                                            <div class="star-rating">
+                                                <div class="star-rating__wrap">
+                                                <input class="star-rating__input" id="star-rating-95" type="radio" name="rating" value="5">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-94" type="radio" name="rating" value="4">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-93" type="radio" name="rating" value="3">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-92" type="radio" name="rating" value="2">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-91" type="radio" name="rating" value="1">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-btn">
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">    
+                        <div class="image-slide__image">
+                            <div class="col col-width">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="bookmark">Popular</div>
+                                    <img src="./img/Rectangle 74.png" class="card-img-top img-size" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">In an Absent Dream (Wayward Children...</h5>
+                                        <p class="card-text">Seanan McGuire</p>
+                                        <div class="card-price">
+                                            <p class="price">$14.00</p>
+                                            <div class="star-rating">
+                                                <div class="star-rating__wrap">
+                                                <input class="star-rating__input" id="star-rating-105" type="radio" name="rating" value="5">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-104" type="radio" name="rating" value="4">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-103" type="radio" name="rating" value="3">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-102" type="radio" name="rating" value="2">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-101" type="radio" name="rating" value="1">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-btn">
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">   
+                        <div class="image-slide__image">
+                            <div class="col col-width">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="bookmark">Popular</div>
+                                    <img src="./img/Rectangle 70.png" class="card-img-top img-size" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">In an Absent Dream (Wayward Children...</h5>
+                                        <p class="card-text">Seanan McGuire</p>
+                                        <div class="card-price">
+                                            <p class="price">$14.00</p>
+                                            <div class="star-rating">
+                                                <div class="star-rating__wrap">
+                                                <input class="star-rating__input" id="star-rating-115" type="radio" name="rating" value="5">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-114" type="radio" name="rating" value="4">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-113" type="radio" name="rating" value="3">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-112" type="radio" name="rating" value="2">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-111" type="radio" name="rating" value="1">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            <div class="card-btn">
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                                <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                    <div class="swiper-slide">    
+                        <div class="image-slide__image">
+                            <div class="col col-width">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="bookmark">Popular</div>
+                                    <img src="./img/Rectangle 71.png" class="card-img-top img-size" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">In an Absent Dream (Wayward Children...</h5>
+                                        <p class="card-text">Seanan McGuire</p>
+                                        <div class="card-price">
+                                            <p class="price">$14.00</p>
+                                            <div class="star-rating">
+                                                <div class="star-rating__wrap">
+                                                <input class="star-rating__input" id="star-rating-125" type="radio" name="rating" value="5">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-124" type="radio" name="rating" value="4">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-123" type="radio" name="rating" value="3">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-122" type="radio" name="rating" value="2">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                                <input class="star-rating__input" id="star-rating-121" type="radio" name="rating" value="1">
+                                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-btn">
+                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            <object data="./img/Group 36.svg" type="image/svg+xml"></object>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                </div>
+            </div>
+    <div class="footer">
+        <div class="footer-box">
+            <div class="box__info" id="nav">
+                <div class="menu-item"> 
+                    <div class="box__info-1" data-number="0" >Popular Categories
+                        <div class="submenu">
+                            <ul class="info__1">
+                                <li class="black__li">Business & Money </li>
+                                <li class="black__li">Children's Books</li>
+                                <li class="black__li">Computers & Technology </li>
+                                <li class="black__li">Cookbooks, Food & Wine</li>
+                                <li class="black__li">Crafts, Hobbies & Home</li>
+                                <li class="black__li">Education & Teaching</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        <div class="menu-item"> 
+            <div class="box__info-1" data-number="1">Customer service
+                <div class="submenu">
+                    <ul class="info__1">
+                        <li class="black__li">Help</li>
+                        <li class="black__li">FAQ</li>
+                        <li class="black__li">Secure payment</li>
+                        <li class="black__li">Delivery</li>
+                        <li class="black__li">Returns & refunds</li>
+                        <li class="black__li">Contact us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="menu-item"> 
+            <div class="box__info-1" data-number="2">Follow us
+                <div class="submenu">
+                    <ul class="info__1">
+                        <li class="black__li">Instagram</li>
+                        <li class="black__li">Facebook</li>
+                        <li class="black__li">Twitter</li>
+                        <li class="black__li">Pinterest</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box-search">
+            <p class="search-text1">Subscribe to our Newsletter</p>
+            <p class="search-text2">No spam, we promise</p>
+            <form class="d-flex flex-size">
+                <input class="form-control me-2" type="email" placeholder="example@mail.com" >
+                <button class="btn  btn__style" type="submit">Search</button>
+            </form>
+            <p class="search-text2 search__pd">Calls are free of charge 0-800-600-505</p>
+            <p class="search-text2">Working hours from 09:00 to 18:00</p>
+        </div>
+    </div>
+        <hr class="footer-line">
+        <div class="footer-contact">
+            <p class="footer-text1 one-color">Copyright © 2020 Crocoblock, Inc. All rights reserved</p>
+            <div class="footer-contact1">
+                <p class="footer-text2 one-color">Privacy Policy</p>
+                <p class="footer-text3 one-color">Terms</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./js/script.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
