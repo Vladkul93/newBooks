@@ -425,7 +425,7 @@ justify-content: space-around !important;
 .banner-bg {
     max-width:1266px;
     height:540px; 
-    background-image: url(/img/Banner.png);
+    background-image: url(../img/Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
